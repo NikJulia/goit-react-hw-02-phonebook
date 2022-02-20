@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.5;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .Phonebook {
+      width: 600px;
+      margin: 20px auto;
+      padding: 10px;
+      color: rgb(49, 49, 49);
+      background-color: rgb(247, 247, 247);
+      border: 1px solid rgb(180, 180, 180);
+  }
+
+  .Phonebook__header {
+      color: #0515fc;
+      text-transform: uppercase;
+      text-align: center;
+  }

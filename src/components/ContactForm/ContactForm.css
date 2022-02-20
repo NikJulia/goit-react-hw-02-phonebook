@@ -1,0 +1,44 @@
+.ContactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    max-width: 500px;
+    margin: 0 auto 60px;
+    padding: 20px;
+}
+
+.ContactForm__label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ContactForm__input {
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid rgb(143 143 143);
+    border-radius: 5px;
+}
+
+.ContactForm__btn {
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: #fce98c;
+    transition: all 250ms linear;
+}
+
+.ContactForm__btn:hover,
+.ContactForm__btn:focus {
+  background-color: rgb(142, 255, 138);
+}
